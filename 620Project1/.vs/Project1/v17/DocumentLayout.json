@@ -1,0 +1,63 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\20203324\\Documents\\GitHub\\620Programing\\20203324\\620Project1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{48041EF9-C212-40F4-A1EC-B28BB8AB955E}|Project1.vcxproj|C:\\Users\\20203324\\Documents\\GitHub\\620Programing\\20203324\\620Project1\\\uC18C\uC2A4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{48041EF9-C212-40F4-A1EC-B28BB8AB955E}|Project1.vcxproj|solutionrelative:\uC18C\uC2A4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+<<<<<<< HEAD
+=======
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48041EF9-C212-40F4-A1EC-B28BB8AB955E}|Project1.vcxproj|C:\\Users\\20203324\\Documents\\GitHub\\620Programing\\20203324\\620Project1\\\uD5E4\uB354.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{48041EF9-C212-40F4-A1EC-B28BB8AB955E}|Project1.vcxproj|solutionrelative:\uD5E4\uB354.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+>>>>>>> 334708a0829de48dda3bbfdf2fef90beae9e8ba9
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+=======
+              "DocumentIndex": 1,
+              "Title": "\uD5E4\uB354.h",
+              "DocumentMoniker": "C:\\Users\\20203324\\Documents\\GitHub\\620Programing\\20203324\\620Project1\\\uD5E4\uB354.h",
+              "RelativeDocumentMoniker": "\uD5E4\uB354.h",
+              "ToolTip": "C:\\Users\\20203324\\Documents\\GitHub\\620Programing\\20203324\\620Project1\\\uD5E4\uB354.h",
+              "RelativeToolTip": "\uD5E4\uB354.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-26T02:19:10.344Z"
+            },
+            {
+              "$type": "Document",
+>>>>>>> 334708a0829de48dda3bbfdf2fef90beae9e8ba9
+              "DocumentIndex": 0,
+              "Title": "\uC18C\uC2A4.c",
+              "DocumentMoniker": "C:\\Users\\20203324\\Documents\\GitHub\\620Programing\\20203324\\620Project1\\\uC18C\uC2A4.c",
+              "RelativeDocumentMoniker": "\uC18C\uC2A4.c",
+              "ToolTip": "C:\\Users\\20203324\\Documents\\GitHub\\620Programing\\20203324\\620Project1\\\uC18C\uC2A4.c",
+              "RelativeToolTip": "\uC18C\uC2A4.c",
+<<<<<<< HEAD
+              "ViewState": "AQIAABsAAAAAAAAAAAAAABIAAAAOAAAA",
+=======
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAOAAAA",
+>>>>>>> 334708a0829de48dda3bbfdf2fef90beae9e8ba9
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-03-26T02:00:32.557Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
