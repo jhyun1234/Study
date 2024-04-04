@@ -127,10 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="소스.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="헤더.h" />
+    <ClCompile Include="복합 대입 연산자.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
