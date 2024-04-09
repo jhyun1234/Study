@@ -12,7 +12,7 @@ int main()
 	{
 		printf("¸ðµÎ Â¦¼ö");
 	}
-	else if (x % 3 == 0 && y % 3 == 0)
+	else if (x % 2 != 0 && y % 2 != 0)
 	{
 		printf("¸ðµÎ È¦¼ö");
 	}
