@@ -1,7 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include <math.h>
-#define SIZE 26
+
 int main()
 {
 	int total = 0; int target = 0;
