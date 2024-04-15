@@ -15,6 +15,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="배열을 이용한 수 찾기.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="소스.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
