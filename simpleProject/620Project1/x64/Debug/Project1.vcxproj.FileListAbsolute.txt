@@ -1,2 +1,3 @@
 C:\Users\User A\Desktop\App1\620Programing\20203324\620Project1\x64\Debug\Project1.exe
 C:\Users\User A\Desktop\App1\Study\simpleProject\620Project1\x64\Debug\Project1.exe
+C:\Users\User A\Desktop\Study1\Study\simpleProject\620Project1\x64\Debug\Project1.exe

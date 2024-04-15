@@ -19,7 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="배열을 이용한 수 찾기.c" />
     <ClCompile Include="소스.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
