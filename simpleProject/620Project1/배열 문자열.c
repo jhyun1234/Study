@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-
+#include <stdlib.h>
 
 int main()
 {
@@ -44,7 +44,7 @@ int main()
 	//	printf("%c", arr[i]);
 	//}
 	//printf("\n");
-    
+
 #pragma endregion
 
 #pragma region 베열 짝수,홀수 갯수를 구하는 방법
@@ -111,7 +111,7 @@ int main()
 	//}
 	//printf("%s", voca);
 
-      //char voca[100];
+	  //char voca[100];
 	  //int len = 0;
 	  //char max = 0;
 	  //printf("단어 입력");
@@ -137,26 +137,121 @@ int main()
 
 #pragma region 개수 세기
 
-    int n; // 입력할 갯수를 지정
-	int arr[100]; // 배열의 길이 설정
-	int i = 0;
-	int j = 0;
-	int target = 0; // 어떤 수를 찾을지 지정하는 변수
-	int sum = 0; // target의 수가 몇개 있는지 나타내는 변수
-	scanf("%d", &n);
+   //int n; // 입력할 갯수를 지정
+	//int arr[100]; // 배열의 길이 설정
+	//int i = 0;
+	//int j = 0;
+	//int target = 0; // 어떤 수를 찾을지 지정하는 변수
+	//int sum = 0; // target의 수가 몇개 있는지 나타내는 변수
+	//scanf("%d", &n);
 
-	for (int i = 0; i < n; i++)
-	{
-		scanf("%d", &arr[i]);
-	}
+	//for (int i = 0; i < n; i++)
+	//{
+	//	scanf("%d", &arr[i]);
+	//}
 
-	scanf("%d", &target);
-	for (int j = 0; j < n; j++)
+	//scanf("%d", &target);
+	//for (int j = 0; j < n; j++)
+	//{
+	//	if (arr[j] == target)
+	//		sum++;
+	//}
+	///printf("%d", sum);
+
+#pragma endregion
+
+#pragma region X보다 작은 수
+
+	//int N;
+	//int X;
+	//int A[1000];
+	//
+	//int i = 0;
+	//scanf("%d %d",&N,&X);
+	//for (i = 0; i < N; i++)
+	//{
+	//
+	//	scanf("%d", &A[i]);
+	//}
+	//for (i = 0; i < N; i++)
+	//{
+	//	if (i < X)
+	//	{
+	//		printf("%d ", A[i]);
+	//	}
+	//}   
+
+
+
+
+
+#pragma endregion
+
+
+#pragma region 최대,최소
+ 
+    //int n;
+	//int i = 0;
+	//int* arr;
+	//scanf("%d", &n);
+	//arr = (int*)malloc(n * sizeof(int));
+	//if (arr == NULL) { // 메모리 할당 실패 처리
+	//	printf("메모리 할당 실패\n");
+	//	return -1;
+	//}
+	//
+	//for (i = 0; i < n; i++)
+	//{
+	//	scanf("%d", &arr[i]);
+	//}
+	//
+	//int max = arr[0];
+	//int min = arr[0];
+	//for (i = 1; i < n; i++)
+	//{
+	//	if (max < arr[i])
+	//	{
+	//		max = arr[i];
+	//	}
+	//	if (min > arr[i])
+	//	{
+	//		min = arr[i];
+	//	}
+	//
+	//}
+	//printf("%d %d", min, max);
+	//
+	//free(arr);
+
+
+#pragma endregion
+
+#pragma region 최댓값
+
+
+	int arr[9];
+	int i;
+
+	for (i = 0; i < 9; i++)
 	{
-		if (arr[j] == target)
-			sum++;
+	   scanf("%d", &arr[i]);
+
 	}
-	printf("%d", sum);
+	
+	int max = arr[0];
+	int place = 0;
+	for (i = 0; i < 9; i++)
+	{
+		if (max <= arr[i])
+		{
+			max = arr[i];
+			place = i;
+		}
+	}
+	
+	printf("%d\n", max);
+	printf("%d", place + 1);
+	
 
 #pragma endregion
 
