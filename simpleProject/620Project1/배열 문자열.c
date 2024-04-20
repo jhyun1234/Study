@@ -228,32 +228,95 @@ int main()
 
 #pragma region 최댓값
 
-
-	int arr[9];
-	int i;
-
-	for (i = 0; i < 9; i++)
-	{
-	   scanf("%d", &arr[i]);
-
-	}
-	
-	int max = arr[0];
-	int place = 0;
-	for (i = 0; i < 9; i++)
-	{
-		if (max <= arr[i])
-		{
-			max = arr[i];
-			place = i;
-		}
-	}
-	
-	printf("%d\n", max);
-	printf("%d", place + 1);
+   
+	//int arr[9];
+	//int i;
+   
+	//for (i = 0; i < 9; i++)
+	//{
+	//   scanf("%d", &arr[i]);
+   
+	//}
+	//
+	//int max = arr[0];
+	//int place = 0;
+	//for (i = 0; i < 9; i++)
+	//{
+	//	if (max <= arr[i])
+	//	{
+	//		max = arr[i];
+	//		place = i;
+	//	}
+	//}
+	//
+	//printf("%d\n", max);
+	///printf("%d", place + 1);
 	
 
 #pragma endregion
+
+#pragma region 피보나치 수열
+     
+
+	//int arr[10];
+	//int i = 0;
+	//for (int i = 0; i < 10; i++)
+	//{
+	//	if (i == 0)
+	//		arr[0] = 1;
+	//	else
+	//	{
+    //      int a=0, b=0, sum=0;
+	//
+	//		a = arr[i - 1];
+	//	 if (i > 1)
+	//	 {
+	//	 
+	//	 	b = arr[i - 2];
+	//	 }
+	//	 sum = a + b;
+	//	 arr[i] = sum;
+	//	}
+	// printf("%d ", arr[i]);
+	//}
+
+#pragma endregion
+
+
+#pragma region 코드업
+
+    //char a[2001];
+	//gets(a);
+	//puts(a);
+    
+    //int a, b;
+	//scanf("%d.%d", &a, &b);
+	//printf("%d\n%d", a, b);
+     
+     //char arr[10];
+	 //int i;
+	 //scanf("%s", &arr);
+	 //
+	 //for (i = 0; arr[i]!=0; i++)
+	 //{
+	//	 
+	 //  printf("%c\n", arr[i]);
+	 //}
+
+      //int a, b, c, d, e;
+	  //scanf("%1d%1d%1d%1d%1d", &a, &b, &c, &d, &e);
+	  //printf("%d\n", a * 10000);
+	  //printf("%d\n", b * 1000);
+	  //printf("%d\n", c * 100);
+	  //printf("%d\n", d * 10);
+	  //printf("%d\n", e * 1);
+
+   
+
+   
+#pragma endregion
+
+
 
 	return 0;
 }
