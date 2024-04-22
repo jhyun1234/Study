@@ -7,6 +7,7 @@
 #define SIZE2 6
 #define SIZE3 10
 #define SIZE4 10
+
 int main()
 {
 #pragma region 성적 입력후 평균
@@ -159,5 +160,35 @@ int main()
 */
 #pragma endregion
 
+#pragma region 피보나치 수열
+
+int arr[10];
+int i = 0;
+for (int i = 0; i < 10; i++)
+{
+	if (i == 0)
+		arr[0] = 1;
+	else
+	{
+		int a = 0, b = 0, sum = 0;
+
+		a = arr[i - 1];
+		if (i > 1)
+		{
+
+			b = arr[i - 2];
+		}
+		sum = a + b;
+		arr[i] = sum;
+	}
+	printf("%d ", arr[i]);
+}
+
+
+
+
+
+#pragma endregion
 	return 0;
 }
+
