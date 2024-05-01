@@ -4,7 +4,7 @@
 #include <time.h>
 #include <limits.h>
 #define SIZE 10
-int main()
+/*int main()
 {
 	/*
 	int arr[20];
@@ -28,7 +28,7 @@ int main()
 		arr3[i] = arr2[i];
 	}
 		arr3[strlen(arr2)] = '\0';
-		printf("%s\n", arr3);*/
+		printf("%s\n", arr3);
 	
 
 	/*
@@ -78,7 +78,7 @@ int main()
 	printf("\n");
 	printf("%d\n", max);
 	
-	*/
+	
 		
 
 	/*
@@ -111,7 +111,7 @@ int main()
 	con[i + j] = '\0';
 
 	printf("%s", con);
-	*/
+	
 
 
     /**
@@ -131,7 +131,8 @@ int main()
 		}
 		printf("\n");
 	}
-	*/
+	
 
 	return 0;
 }
+*/
