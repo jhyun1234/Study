@@ -19,6 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="구조체.c" />
+    <ClCompile Include="다차원배열.c" />
+    <ClCompile Include="동물 뒤집기.c" />
+    <ClCompile Include="포인터 프로젝트 물고기 게임.c" />
     <ClCompile Include="포인터.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
