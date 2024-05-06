@@ -231,7 +231,7 @@ int main()
 #pragma endregion
 
 
- #pragma region 버블 정렬
+  #pragma region 버블 정렬
 
  /*
  int a[SIZE]; // 지역변수 - 쓰레기 값 -> 초기화를 하지않음

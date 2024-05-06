@@ -30,5 +30,20 @@
     <ClCompile Include="구조체.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="고양이 수집.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="파일입출력.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="파일 입출력 프로젝트.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="printf scanf 프로젝트.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7장 버블정렬.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
