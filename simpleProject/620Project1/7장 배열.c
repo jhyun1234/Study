@@ -395,8 +395,8 @@ int main()
 
 #pragma endregion
 
-#pragma region 틱택톡 게임
-    /*
+ #pragma region 틱택톡 게임
+    
 	int currentPlayer = 1;
 	int x, y = 0;
 	int moveCount = 0;
@@ -411,7 +411,7 @@ int main()
 
 	while (!end)
 	{
-		printf("현재 게임판\n");
+		printf("현재 게임판\n");   
 		for (int i = 0; i < 3; i++)
 		{
 			for (int j = 0; j < 3; j++)
@@ -419,36 +419,39 @@ int main()
 				printf(" %c ", board[i][j]);
 			}
 			printf("\n");
-		}
+		}  // 게임판을 계속해서 그려낸다.
 
 		printf("플레이어 %d 의 차례입니다. 좌표를 입력하세요 :", currentPlayer);
 		scanf("%d %d", &x, &y);
 
-		x--; y--; // 배열의 인덱스를 맞추기 위해서 1을 빼준다
+		x--; y--; // 배열의 인덱스를 맞추기 위해서 1을 빼준다.
 
 		if (x >= 0 && x < 3 && y >= 0 && y < 3 && (board[x][y] != 'X' && board[x][y] != 'O'))
+			// x 와 y의 값이 3을 넘어가면 잘못된 입력이라고 출력한다.
+			// x 와 y 값이 0과 3 사이의 값이면 X 와 O 를 출력한다.
 		{
-			board[x][y] = (currentPlayer == 1) ? 'X' : 'O';
+			board[x][y] = (currentPlayer == 1) ? 'X' : 'O'; // 플레이어가 1일 때 는 먼저 X를 
 			
 			for (int i = 0; i < 3; i++)
 			{
-				if ((board[i][0] == board[i][1] && board[i][1] == board[i][2]) ||
-					(board[0][i] == board[1][i] && board[1][i] == board[2][i]) ||
-					(board[0][0] == board[1][1] && board[1][1] == board[2][2]) ||
-					(board[0][2] == board[1][1] && board[1][1] == board[2][0]))
+				if ((board[i][0] == board[i][1] && board[i][1] == board[i][2]) || // 가로줄이 모두 동일할 기호 일 경우
+					(board[0][i] == board[1][i] && board[1][i] == board[2][i]) || // 세로줄이 모두 동일한 기호 일 경우
+					(board[0][0] == board[1][1] && board[1][1] == board[2][2]) || // 왼쪽 대각선부터 모두 동일한 기호 일 경우
+					(board[0][2] == board[1][1] && board[1][1] == board[2][0]))   // 오른쪽 대각선부터 모두 동일한 기호 일 경우
 				{
 					printf("플레이어 %d 가 승리했습니다!\n", (currentPlayer == 1) ? 1 : 2);
 					end = 1;
-					break;
+					break; // 승리했다면 break 문을 이용해서 바로 while 문 탈출
 				}
 
 			}
-			if (!end && moveCount == 9)
+			if (!end && moveCount == 9) // 무승부 조건
 			{
 				printf("무승부 입니다.");
 				end = 1;
 			}
-			currentPlayer = (currentPlayer == 1) ? 2 : 1;
+			currentPlayer = (currentPlayer == 1) ? 2 : 1; // 플레이어의 턴을 변경
+			moveCount++; 
 
 		}
 		else	
@@ -456,11 +459,10 @@ int main()
 			printf("잘못된 입력입니다.");
 			continue;
 		}
-			moveCount++;
 
 
 	}
-	*/
+	
 #pragma endregion
 		
 		return 0;

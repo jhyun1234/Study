@@ -4,7 +4,7 @@
 #include<time.h>
 
 #define SIZE 20
-int main()
+int main_srand()
 {
 	int arr[SIZE];
 	int i, j, temp;

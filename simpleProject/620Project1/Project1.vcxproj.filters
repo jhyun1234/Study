@@ -48,5 +48,11 @@
     <ClCompile Include="랜덤난수생성후 버블정렬.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="소스.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7장 배열.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
