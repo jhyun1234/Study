@@ -8,7 +8,7 @@
 #define SIZE3 10
 #define SIZE4 10
 #define SIZE5 10
-int main()
+int main_12d()
 {
 
  #pragma region 성적 입력후 평균

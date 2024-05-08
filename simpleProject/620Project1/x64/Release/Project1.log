@@ -1,0 +1,43 @@
+﻿  7장 배열.c
+  고양이 수집.c
+  구조체.c
+  다차원배열.c
+  동물 뒤집기.c
+  printf scanf 프로젝트.c
+C:\Users\User A\Desktop\Study1\Study\simpleProject\620Project1\고양이 수집.c(74,9): warning C4129: ' ': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\User A\Desktop\Study1\Study\simpleProject\620Project1\고양이 수집.c(99,2): warning C4013: 'srand'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User A\Desktop\Study1\Study\simpleProject\620Project1\고양이 수집.c(108,18): warning C4013: 'rand'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User A\Desktop\Study1\Study\simpleProject\620Project1\동물 뒤집기.c(50,14): warning C4013: 'getEmptyPosition'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User A\Desktop\Study1\Study\simpleProject\620Project1\동물 뒤집기.c(51,12): warning C4013: 'conv_pos_x'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User A\Desktop\Study1\Study\simpleProject\620Project1\동물 뒤집기.c(52,12): warning C4013: 'conv_pos_y'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User A\Desktop\Study1\Study\simpleProject\620Project1\동물 뒤집기.c(67,17): warning C4013: 'rand'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User A\Desktop\Study1\Study\simpleProject\620Project1\동물 뒤집기.c(156,2): warning C4013: 'srand'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  랜덤난수생성후 버블정렬.c
+C:\Users\User A\Desktop\Study1\Study\simpleProject\620Project1\printf scanf 프로젝트.c(13,20): warning C4474: 'scanf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  C:\Users\User A\Desktop\Study1\Study\simpleProject\620Project1\printf scanf 프로젝트.c(13,20):
+  자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
+  
+C:\Users\User A\Desktop\Study1\Study\simpleProject\620Project1\printf scanf 프로젝트.c(29,20): warning C4474: 'scanf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  C:\Users\User A\Desktop\Study1\Study\simpleProject\620Project1\printf scanf 프로젝트.c(29,20):
+  자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
+  
+C:\Users\User A\Desktop\Study1\Study\simpleProject\620Project1\랜덤난수생성후 버블정렬.c(11,8): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  소스.c
+  수업시간.c
+  파일 입출력 프로젝트.c
+C:\Users\User A\Desktop\Study1\Study\simpleProject\620Project1\파일 입출력 프로젝트.c(26,7): warning C4013: 'getch'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User A\Desktop\Study1\Study\simpleProject\620Project1\파일 입출력 프로젝트.c(60,10): warning C4129: ' ': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+  파일입출력.c
+C:\Users\User A\Desktop\Study1\Study\simpleProject\620Project1\파일입출력.c(11,7): warning C4101: 'line' :참조되지 않은 지역 변수입니다.
+  포인터 프로젝트 물고기 게임.c
+C:\Users\User A\Desktop\Study1\Study\simpleProject\620Project1\포인터 프로젝트 물고기 게임.c(121,5): warning C4013: 'exit'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  포인터.c
+C:\Users\User A\Desktop\Study1\Study\simpleProject\620Project1\포인터.c(7,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\User A\Desktop\Study1\Study\simpleProject\620Project1\포인터.c(7,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\User A\Desktop\Study1\Study\simpleProject\620Project1\포인터.c(8,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\User A\Desktop\Study1\Study\simpleProject\620Project1\포인터.c(8,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 6 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  Project1.vcxproj -> C:\Users\User A\Desktop\Study1\Study\simpleProject\620Project1\x64\Release\Project1.exe
