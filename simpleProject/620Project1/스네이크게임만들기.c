@@ -1,3 +1,4 @@
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include<stdlib.h>
@@ -166,7 +167,7 @@ void Logic()
 	}
 	 
 }
-int main()
+int main_SnakeTwo()
 {
 	srand(time(NULL));
 	Setup();
