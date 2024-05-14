@@ -21,6 +21,16 @@
 // int max=add(d,e); 반복적으로 호출할 때
 // int max=add(3,4); 한번만 호출할 때
 // 함수 호출 return 값은 컴파일러가 값을 복사해서 출력해서 나온다.
+// 정적변수와 전역변수는 memory에 잡히고 지역변수는 stack에 잡힌다.
+// 정적변수와 전역변수는 컴파일 실행시 생성 지역변수는 함수가 호출이 될 때 생성된다.
+// 전역변수와 정적변수는 프로그램이 완전히 종료될 때 없어진다.지역변수는 함수가 종료될 때 없어진다.
+// 정적변수는 함수안에서 선언된 static은 함수안에서만 사용할 수 있다.함수가 종료될 때 도 값을 저장하고 싶으면
+// static을 사용하는게 좋다.
+// static은 memory가 만들어질 때 딱 한번 초기화 된다.
+// extern 파일이 여러개 일 때 많이 사용하게 된다. 다른파일이라는 말로 지정한다 라는것만 지금은 알면된다.
+// 재귀함수 함수가 자기자신을 호출하는것이다.종료조건을 정해서 종료시키는게 중요하다.
+// 속도면에서는 반복문이 더 빠르다.하지만 반복문을 계속 사용하면 가독성이 떨어질 수 있다.
+// 동적메모리는 생성을 하고 난 뒤 직접 free()함수를 이용해서 없애줘야한다.
 
 int add(int x,int y)
 {
@@ -45,15 +55,20 @@ int f(int a, int b);
 int Sum(int arr[], int a);
 
 int ff(int* a);
+
+void sub(void);
+
+int a=0;
+int fact(int n);
 int main()
 {
+	/*
+	printf("%d ", add(4, 4));
 	
-	// printf("%d ", add(4, 4));
-	
-	//int x = 10;
-	//int y = 20;
-	//int value=add(10,20); // int value(10,20) 가능하다 하지만 메모리가 다르다 함수는 값을 복사해서 가져온다.
-	//printf("%d ", value);   
+	int x = 10;
+	int y = 20;
+	int value=add(10,20); // int value(10,20) 가능하다 하지만 메모리가 다르다 함수는 값을 복사해서 가져온다.
+	printf("%d ", value);   
 	
 	int arr[] = { 1,2,3,4,5 }; // 배열은 이미 주소를 가지고있기 때문에 값을 변경하면 그대로 값이 변경된다.
 	int sum = 0;
@@ -63,12 +78,28 @@ int main()
 	int length = sizeof(arr) / sizeof(int);
 	for (int i = 0; i < length; i++)
 	{
-	  printf("Sum %d %p \n",i, arr[i]);
+	  printf("Sum %d %p \n",i, (int*)&arr[i]);
 	}
 	int c=100000;
 	c = ff(c);
 	
 	printf("%d", c);
+	*/
+
+	/*
+	sub();
+	sub();
+	sub();
+	*/
+
+	int a = 3;
+	int* ptr = &a;
+	*ptr = 10;
+	printf("%d %d \n",*ptr, a);
+
+	int result = fact(5);
+	printf("%d", result);
+
 	return 0;
 }
 int f(int a, int b)
@@ -96,4 +127,21 @@ int ff(int *a)
 	int *b = &c;
 
 	return c;
+}
+void sub(void)
+{
+	int count = 0;
+	static int count2 = 0;
+
+	count++;
+	count2++;
+	printf("cout %d ", count);
+	printf("count2 %d \n", count2);
+}
+int fact(int n)
+{
+
+	if (n <= 1)
+		return 1;
+	else return n * fact(n - 1);
 }
