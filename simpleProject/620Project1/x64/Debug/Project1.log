@@ -1,3 +1,4 @@
-﻿  스네이크게임만들기.c
-C:\Users\User A\Desktop\Study1\Study\simpleProject\620Project1\스네이크게임만들기.c(171,8): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+﻿  8장 함수.c
+C:\Users\User A\Desktop\Study1\Study\simpleProject\620Project1\8장 함수.c(271,14): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User A\Desktop\Study1\Study\simpleProject\620Project1\8장 함수.c(337): warning C4716: 'Fibonacci': 값을 반환해야 합니다.
   Project1.vcxproj -> C:\Users\User A\Desktop\Study1\Study\simpleProject\620Project1\x64\Debug\Project1.exe

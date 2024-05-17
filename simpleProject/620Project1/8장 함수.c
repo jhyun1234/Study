@@ -2,26 +2,153 @@
 #include <stdio.h>
 #include<stdlib.h>
 #include<time.h>
+#include<conio.h>
+#include<math.h>
 
+#define SIZE 10
 
 int get_integer();
-int compare(int x, int y);
+int compare();
 int power(int x, int y);
+
+double FtoC(double tempf);
+
+int Checkprime(int x);
+
+int average(int score[], int size);
+
+void Plus_arr(int arr[], int size);
+void Source_arr(int arr[], int size);
+
+int Sum_integer(int x);
+
+int integer = 10; // 전역변수 선언
+void Integer_Plus(); 
+void Integer_print();
+
+void Car(int car_n, int dis);
+void Car_dis_rand(int *car1_dis, int *dsdscar2_dis); // main함수 내에서 계속해서 rand를 돌리는것보다 포인터를 사용해서
+// 가독성을 높임
+float Get_Point(float x, float y);
+void Sub();
+int Fact(int x);
+int Fibonacci(int arr[], int x);
 int main()
 {
 
-	int a = get_integer();
-	int b = get_integer();
+	//int a = get_integer();
+	//int b = get_integer();
+	//
+	//int result = a + b;
+	//printf("두수의 합: %d\n", result);
+	//
+	//int c = compare();
+	//
+	//printf("더 큰 정수: %d\n", c);
+	//
+	//int d = get_integer();
+	//int e = get_integer();
+	//int f = power(d,e);
+	//printf("%d의 %d승 : %d\n",a,b,f);
 
-	int result = a + b;
-	printf("두수의 합: %d\n", result);
+	//double c, f;
+	//printf("화씨온도를 입력하세요 : \n");
+	//scanf("%lf", &f);
+	//printf("%lf의 섭씨온도는 %lf 입니다.\n", f, FtoC(f));
 
-	int c = compare(5,4);
+	//int h;
+	//printf("1과100사이에서 소수를 찾습니다.\n");
+	//for (int i = 0; i < 100; i++)
+	//{
+	//	if (Checkprime(i) == 1)
+	//		printf("%d ", i);
+	//}
 
-	printf("더 큰 정수: %d", c);
+	//int score[SIZE] = { 100,100,100,100,100 };
+	//int avg;
+	//avg = average(score, SIZE);
+	//printf("평균 %d \n", avg);
 
-	int d = power(3, 10);
-	printf("");
+	//int list[SIZE] = { 1,2,3,4,5 };
+	//Source_arr(list, SIZE);
+	//Plus_arr(list, SIZE);
+	//Source_arr(list, SIZE);
+	//Plus_arr(list, SIZE);
+	//Source_arr(list, SIZE);
+
+	//int sum = 0;
+	//sum = Sum_integer(100);
+	//printf("1부터 100까지의 합 %d\n", sum);
+
+	//int integer = 100; // main 지역변수 선언
+	//
+	//printf("%d\n", integer); // main의 integer가 나옴 
+	//Integer_Plus(); // global integer의 값을 1증가
+	//Integer_print();// global integer의 값을 출력
+
+	//srand(time(NULL));
+	//int car1dis = 0;
+	//int car2dis = 0;
+	//for (int i = 0; i < 20; i++)
+	//{
+	//	system("cls");
+	//	Car_dis_rand(&car1dis,&car2dis);
+	//	Car(1, car1dis);
+	//	Car(2, car2dis);
+	//	if (car1dis > car2dis) // 간단하게 누가 더 많이 가서 이겼는지 판별
+	//	{
+	//		printf("car1 win");
+	//	}
+	//	else 
+	//		printf("car2 win");
+	//	_getch();
+	//
+	//}
+
+	//int j ,check= 0;
+	//printf("양의 정수를 입력하세요.");
+	//scanf("%d", &j);
+	//for (int i = 2; i < j; i++)
+	//{
+	//	if (Checkprime(i) == 1)
+	//	{
+	//		if (Checkprime(j - i) == 1) // j-i는 입력받은 값에서 i를 뺀값이 소수이면 출력을 한다는 의미
+	//		{
+	//			printf("%d=%d+%d\n", j, i, j - i);
+	//			check = 1; // check가 1이면 출력을 한다.
+	//		}
+	//	}
+	//}
+	//// 소수들의 합으로 덧셈을 나타낼 수 없으면 종료된다.
+	//// 종료되는 조건
+	//if (check == 0)
+	//	printf("%d는 소수들의 합으로 나타낼 수 없습니다.\n", j);
+
+	//float x=0, y=0;
+	//srand(time(NULL)); // 랜덤 함수를 이용해서 다트의 위치 넣기
+	//x = rand() % 5;
+	//y = rand() % 5;
+	//printf("다트의 x,y의 좌표가 랜덤으로 던져집니다(플레이어가 던졌다고 침).\n"); // 다트 던지기
+	//float point = Get_Point(x, y);
+	//printf("떨어진 좌표는 %f %f 입니다.\n", x, y);
+	//printf("획득한 점수는 %f점 입니다.\n", point);
+
+	//Sub(); // static을 사용하면 함수호출이 종료되어도 없어지지 않는다 값이 계속해서 남아있음
+	//Sub();
+	//Sub();
+	//Sub();
+
+    //int result = 0;
+	//
+	//printf("정수를 입력하세요.\n");
+	//scanf("%d", &result);  
+	//printf("%d!=%d", result, Fact(result)); // 정수를 입력받아서 펙토리얼을 구현할 수 있다.
+
+    int x = 10;
+	int arr[SIZE];
+	Fibonacci(arr, x);
+
+
 
 	return 0;
 }
@@ -34,11 +161,11 @@ int get_integer()
 
 }
 
-int compare(int x, int y)
+int compare()
 {
 
 	int value,value2;
-	printf("정수를 입력하세요.");
+	printf("크기를 비교할 정수를 입력하세요.");
 	scanf("%d %d", &value,&value2);
 	
 	if (value > value2)
@@ -49,11 +176,9 @@ int compare(int x, int y)
 
 }
 
-int power(int x,int y)
+int power(int x, int y)
 {
-	int value, value2;
-	printf("정수를 입력하세요.");
-	scanf("%d %d", &value, &value2);
+	
 	int result=1;
 	for (int i = 0; i < y; i++)
 	{
@@ -62,4 +187,154 @@ int power(int x,int y)
 	return result;
 
 
+}
+
+double FtoC(double tempf)
+{
+	double tempc;
+	tempc = ((tempf - 32) * 5.0) / 9;
+	return tempc;
+}
+
+int Checkprime(int x)
+{
+	if (x == 1)
+		return 0;
+	int prime = 1;
+	for (int i = 2; i < x; i++)
+	{
+		if (x % i == 0)
+		{
+			prime = 0;
+			break;
+		}
+	}
+	return prime;
+}
+
+int average(int score[], int size)
+{
+	int sum = 0;
+	for (int i = 0; i < size; i++)
+	{
+		sum += score[i];
+	}
+	return sum / size;
+}
+
+void Plus_arr(int arr[],int size)
+{
+	for (int i = 0; i < size; i++)
+		++arr[i];
+}
+void Source_arr(int arr[], int size)
+{
+	for (int i = 0; i < size; i++)
+		printf("%d ", arr[i]);
+	printf("\n");
+}
+
+int Sum_integer(int x)
+{
+	int result = 0;
+	for (int i = 0; i <= x; i++)
+	{
+		result += i;
+	}
+	return result;
+}
+
+void Integer_Plus()
+{
+	integer++;
+}
+void Integer_print()
+{
+	printf("global integer : %d\n", integer);
+}
+
+void Car(int car_n, int dis)
+{
+	printf("CAR #%d", car_n);
+	for (int i = 0; i < dis; i++)
+	{
+		printf("*");
+	}
+	printf("\n");
+}
+void Car_dis_rand(int *car1_dis,int *car2_dis)
+{
+	*car1_dis = rand() % 100; // +=는 하면 계속 별이 추가로 찍힘 하지만 = 를 하게 되면 키를 입력 받을 때마다
+	*car2_dis = rand() % 100; // 어디까지 왔는지 알 수 있음
+
+}
+
+float Get_Point(float x, float y)
+{
+	float dis = sqrt(x * x + y * y); // 루트함수를 이용해서 거리를 계산 
+	if (dis > 10) 
+	{
+		return 0; 
+	}
+	else if (dis>5)
+	{
+		return 1;
+	}
+	else if (dis > 1) 
+	{
+		return 5;
+	}
+	else// 원점 1,1에 맞았을 때 10점
+	{
+		return 10;
+	}
+}
+
+void Sub()
+{
+	int count = 0;
+	static int count2 = 0;
+
+	count++;
+	count2++;
+	printf("int count=%d\n", count);
+	printf("static count=%d\n", count2);
+
+}
+
+int Fact(int x)
+{
+	if (x <= 1)
+	{
+		return 1;
+	}
+	else
+		return x * Fact(x - 1);
+
+}
+
+int Fibonacci(int arr[], int x)
+{
+	int a, b = 0;
+	int sum = 0;
+	
+	for (int i = 0; i < x; i++)
+	{
+		if (i == 0)
+		{
+			arr[0] = 1;
+			
+		}
+		else 
+		{
+			a = arr[i - 1];
+			if (i > 1)
+			{
+				b = arr[i - 2];
+			}
+			sum = a + b;
+			arr[i] = sum;
+		}
+		printf("%d ", sum);
+	}
 }
