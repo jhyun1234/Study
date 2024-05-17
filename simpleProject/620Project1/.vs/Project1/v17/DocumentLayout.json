@@ -1,42 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\",
+  "WorkspaceRootPath": "C:\\Users\\16\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48041EF9-C212-40F4-A1EC-B28BB8AB955E}|Project1.vcxproj|C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uC218\uC5C5\uC2DC\uAC04.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{48041EF9-C212-40F4-A1EC-B28BB8AB955E}|Project1.vcxproj|C:\\Users\\16\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\8\uC7A5 \uD568\uC218.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{48041EF9-C212-40F4-A1EC-B28BB8AB955E}|Project1.vcxproj|solutionrelative:8\uC7A5 \uD568\uC218.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48041EF9-C212-40F4-A1EC-B28BB8AB955E}|Project1.vcxproj|C:\\Users\\16\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uC218\uC5C5\uC2DC\uAC04.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{48041EF9-C212-40F4-A1EC-B28BB8AB955E}|Project1.vcxproj|solutionrelative:\uC218\uC5C5\uC2DC\uAC04.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48041EF9-C212-40F4-A1EC-B28BB8AB955E}|Project1.vcxproj|C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uD3EC\uC778\uD130.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{48041EF9-C212-40F4-A1EC-B28BB8AB955E}|Project1.vcxproj|solutionrelative:\uD3EC\uC778\uD130.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48041EF9-C212-40F4-A1EC-B28BB8AB955E}|Project1.vcxproj|C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uC2A4\uB124\uC774\uD06C\uAC8C\uC784\uB9CC\uB4E4\uAE30.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{48041EF9-C212-40F4-A1EC-B28BB8AB955E}|Project1.vcxproj|solutionrelative:\uC2A4\uB124\uC774\uD06C\uAC8C\uC784\uB9CC\uB4E4\uAE30.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48041EF9-C212-40F4-A1EC-B28BB8AB955E}|Project1.vcxproj|C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uB79C\uB364\uB09C\uC218\uC0DD\uC131\uD6C4 \uBC84\uBE14\uC815\uB82C.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{48041EF9-C212-40F4-A1EC-B28BB8AB955E}|Project1.vcxproj|solutionrelative:\uB79C\uB364\uB09C\uC218\uC0DD\uC131\uD6C4 \uBC84\uBE14\uC815\uB82C.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48041EF9-C212-40F4-A1EC-B28BB8AB955E}|Project1.vcxproj|C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uC2A4\uB124\uC774\uD06C \uAC8C\uC784.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{48041EF9-C212-40F4-A1EC-B28BB8AB955E}|Project1.vcxproj|solutionrelative:\uC2A4\uB124\uC774\uD06C \uAC8C\uC784.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48041EF9-C212-40F4-A1EC-B28BB8AB955E}|Project1.vcxproj|C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uD30C\uC77C \uC785\uCD9C\uB825 \uD504\uB85C\uC81D\uD2B8.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{48041EF9-C212-40F4-A1EC-B28BB8AB955E}|Project1.vcxproj|solutionrelative:\uD30C\uC77C \uC785\uCD9C\uB825 \uD504\uB85C\uC81D\uD2B8.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48041EF9-C212-40F4-A1EC-B28BB8AB955E}|Project1.vcxproj|C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uD30C\uC77C\uC785\uCD9C\uB825.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{48041EF9-C212-40F4-A1EC-B28BB8AB955E}|Project1.vcxproj|solutionrelative:\uD30C\uC77C\uC785\uCD9C\uB825.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48041EF9-C212-40F4-A1EC-B28BB8AB955E}|Project1.vcxproj|C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uAD6C\uC870\uCCB4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{48041EF9-C212-40F4-A1EC-B28BB8AB955E}|Project1.vcxproj|solutionrelative:\uAD6C\uC870\uCCB4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48041EF9-C212-40F4-A1EC-B28BB8AB955E}|Project1.vcxproj|C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uB3D9\uBB3C \uB4A4\uC9D1\uAE30.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{48041EF9-C212-40F4-A1EC-B28BB8AB955E}|Project1.vcxproj|solutionrelative:\uB3D9\uBB3C \uB4A4\uC9D1\uAE30.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,116 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "\uD3EC\uC778\uD130.c",
-              "DocumentMoniker": "C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uD3EC\uC778\uD130.c",
-              "RelativeDocumentMoniker": "\uD3EC\uC778\uD130.c",
-              "ToolTip": "C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uD3EC\uC778\uD130.c",
-              "RelativeToolTip": "\uD3EC\uC778\uD130.c",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAKEAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-05-13T04:31:17.332Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "\uC218\uC5C5\uC2DC\uAC04.c",
-              "DocumentMoniker": "C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uC218\uC5C5\uC2DC\uAC04.c",
-              "RelativeDocumentMoniker": "\uC218\uC5C5\uC2DC\uAC04.c",
-              "ToolTip": "C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uC218\uC5C5\uC2DC\uAC04.c",
-              "RelativeToolTip": "\uC218\uC5C5\uC2DC\uAC04.c",
-              "ViewState": "AQIAAGYAAAAAAAAAAAAAAJMAAAAAAAAA",
+              "Title": "8\uC7A5 \uD568\uC218.c",
+              "DocumentMoniker": "C:\\Users\\16\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\8\uC7A5 \uD568\uC218.c",
+              "RelativeDocumentMoniker": "8\uC7A5 \uD568\uC218.c",
+              "ToolTip": "C:\\Users\\16\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\8\uC7A5 \uD568\uC218.c",
+              "RelativeToolTip": "8\uC7A5 \uD568\uC218.c",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-05-07T01:52:40.536Z",
+              "WhenOpened": "2024-05-17T07:27:30.289Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "\uC2A4\uB124\uC774\uD06C\uAC8C\uC784\uB9CC\uB4E4\uAE30.c",
-              "DocumentMoniker": "C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uC2A4\uB124\uC774\uD06C\uAC8C\uC784\uB9CC\uB4E4\uAE30.c",
-              "RelativeDocumentMoniker": "\uC2A4\uB124\uC774\uD06C\uAC8C\uC784\uB9CC\uB4E4\uAE30.c",
-              "ToolTip": "C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uC2A4\uB124\uC774\uD06C\uAC8C\uC784\uB9CC\uB4E4\uAE30.c",
-              "RelativeToolTip": "\uC2A4\uB124\uC774\uD06C\uAC8C\uC784\uB9CC\uB4E4\uAE30.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKkAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-05-13T03:49:07.307Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "\uC2A4\uB124\uC774\uD06C \uAC8C\uC784.c",
-              "DocumentMoniker": "C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uC2A4\uB124\uC774\uD06C \uAC8C\uC784.c",
-              "RelativeDocumentMoniker": "\uC2A4\uB124\uC774\uD06C \uAC8C\uC784.c",
-              "ToolTip": "C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uC2A4\uB124\uC774\uD06C \uAC8C\uC784.c",
-              "RelativeToolTip": "\uC2A4\uB124\uC774\uD06C \uAC8C\uC784.c",
+              "DocumentIndex": 1,
+              "Title": "\uC218\uC5C5\uC2DC\uAC04.c",
+              "DocumentMoniker": "C:\\Users\\16\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uC218\uC5C5\uC2DC\uAC04.c",
+              "RelativeDocumentMoniker": "\uC218\uC5C5\uC2DC\uAC04.c",
+              "ToolTip": "C:\\Users\\16\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uC218\uC5C5\uC2DC\uAC04.c",
+              "RelativeToolTip": "\uC218\uC5C5\uC2DC\uAC04.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-05-13T03:49:05.73Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "\uB79C\uB364\uB09C\uC218\uC0DD\uC131\uD6C4 \uBC84\uBE14\uC815\uB82C.c",
-              "DocumentMoniker": "C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uB79C\uB364\uB09C\uC218\uC0DD\uC131\uD6C4 \uBC84\uBE14\uC815\uB82C.c",
-              "RelativeDocumentMoniker": "\uB79C\uB364\uB09C\uC218\uC0DD\uC131\uD6C4 \uBC84\uBE14\uC815\uB82C.c",
-              "ToolTip": "C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uB79C\uB364\uB09C\uC218\uC0DD\uC131\uD6C4 \uBC84\uBE14\uC815\uB82C.c",
-              "RelativeToolTip": "\uB79C\uB364\uB09C\uC218\uC0DD\uC131\uD6C4 \uBC84\uBE14\uC815\uB82C.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-05-07T03:50:34.449Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "\uD30C\uC77C\uC785\uCD9C\uB825.c",
-              "DocumentMoniker": "C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uD30C\uC77C\uC785\uCD9C\uB825.c",
-              "RelativeDocumentMoniker": "\uD30C\uC77C\uC785\uCD9C\uB825.c",
-              "ToolTip": "C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uD30C\uC77C\uC785\uCD9C\uB825.c",
-              "RelativeToolTip": "\uD30C\uC77C\uC785\uCD9C\uB825.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-05-07T02:16:37.649Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "\uAD6C\uC870\uCCB4.c",
-              "DocumentMoniker": "C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uAD6C\uC870\uCCB4.c",
-              "RelativeDocumentMoniker": "\uAD6C\uC870\uCCB4.c",
-              "ToolTip": "C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uAD6C\uC870\uCCB4.c",
-              "RelativeToolTip": "\uAD6C\uC870\uCCB4.c",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAGkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-05-07T01:55:38.461Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "\uD30C\uC77C \uC785\uCD9C\uB825 \uD504\uB85C\uC81D\uD2B8.c",
-              "DocumentMoniker": "C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uD30C\uC77C \uC785\uCD9C\uB825 \uD504\uB85C\uC81D\uD2B8.c",
-              "RelativeDocumentMoniker": "\uD30C\uC77C \uC785\uCD9C\uB825 \uD504\uB85C\uC81D\uD2B8.c",
-              "ToolTip": "C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uD30C\uC77C \uC785\uCD9C\uB825 \uD504\uB85C\uC81D\uD2B8.c",
-              "RelativeToolTip": "\uD30C\uC77C \uC785\uCD9C\uB825 \uD504\uB85C\uC81D\uD2B8.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-05-07T01:53:31.681Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "\uB3D9\uBB3C \uB4A4\uC9D1\uAE30.c",
-              "DocumentMoniker": "C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uB3D9\uBB3C \uB4A4\uC9D1\uAE30.c",
-              "RelativeDocumentMoniker": "\uB3D9\uBB3C \uB4A4\uC9D1\uAE30.c",
-              "ToolTip": "C:\\Users\\11\\Documents\\GitHub\\Study\\simpleProject\\620Project1\\\uB3D9\uBB3C \uB4A4\uC9D1\uAE30.c",
-              "RelativeToolTip": "\uB3D9\uBB3C \uB4A4\uC9D1\uAE30.c",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAAAAwAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-05-07T01:52:36.032Z"
+              "WhenOpened": "2024-05-07T01:52:40.536Z",
+              "EditorCaption": ""
             }
           ]
         }

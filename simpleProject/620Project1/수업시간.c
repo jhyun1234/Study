@@ -60,7 +60,7 @@ void sub(void);
 
 int a=0;
 int fact(int n);
-int main()
+int main_Class()
 {
 	/*
 	printf("%d ", add(4, 4));
