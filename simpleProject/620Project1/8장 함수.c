@@ -1,12 +1,15 @@
+#define _USE_MATH_DEFINES
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include<stdlib.h>
 #include<time.h>
 #include<conio.h>
 #include<math.h>
+#include <windows.h>
 
-#define SIZE 10
 
+#define SIZE1 10
+#define SIZE 6
 int get_integer();
 int compare();
 int power(int x, int y);
@@ -33,6 +36,8 @@ float Get_Point(float x, float y);
 void Sub();
 int Fact(int x);
 int Fibonacci(int arr[], int x);
+int Count_Ways(int x);
+double rad(double degree);
 int main()
 {
 
@@ -144,10 +149,58 @@ int main()
 	//scanf("%d", &result);  
 	//printf("%d!=%d", result, Fact(result)); // 정수를 입력받아서 펙토리얼을 구현할 수 있다.
 
-    int x = 10;
-	int arr[SIZE];
-	Fibonacci(arr, x);
+    //int x = 10;
+	//int arr[SIZE1];
+	//Fibonacci(arr, x);
+       
+    //int stair = 10;
+	//printf("%d의 계단을 오르는 방법은 총 %d 가지입니다.\n", stair, Count_Ways(stair));
+    
+    //double n, result;
+	//printf("실수 입력");
+	//scanf("%lf", &n);
+	//result = sqrt(n);
+	//printf("%lf의 제곱근은 %lf 입니다.\n", n, result);
+  
+    //system("cls");
+	//Sleep(1000);
+	//system("cls");
+	//system("ipconfig /all");
 
+    //long start, end = 0;
+	//start = time(NULL);
+	//printf("10초가 됐다고 생각하시면 아무키나 눌러주세요.\n");
+	//_getch();
+	//printf("종료되었습니다.");
+	//end = time(NULL);
+	//printf("경과된 시간은 %ld 초였습니다.\n", end - start);
+
+    //int arr1[SIZE];
+	//srand(time(NULL));
+	//for (int i = 0; i < 6; i++)
+	//{
+	//	arr1[i] = rand() % 45 + 1;
+	//	printf("%d ",arr1[i]);
+	//}
+
+    //int degree, x, y = 0;
+	//double radian, result;
+	//
+	//HWND hwnd = GetForegroundWindow();
+	//HDC hdc = GetWindowDC(hwnd);
+	//
+	//MoveToEx(hdc, 30, 200, 0);
+	//LineTo(hdc, 500, 200);
+	//for (degree = 0; degree <= 500; degree++)
+	//{
+	//	result = sin(rad((double)degree));
+	//	x = degree + 30;
+	//	y = 200 - (int)(100.0 * result);
+	//	SetPixel(hdc, x, y, RGB(255, 0, 0));
+	//}
+	//_getch();
+
+    
 
 
 	return 0;
@@ -337,4 +390,24 @@ int Fibonacci(int arr[], int x)
 		}
 		printf("%d ", sum);
 	}
+}
+
+int Count_Ways(int x)
+{
+	if (x == 1) 
+		return 1; // 계단을 하나씩 오르는 방법
+	else if (x == 2)
+		return 2; // 계단을 두개씩 오르는 방법
+	else
+		return Count_Ways(x - 1) + Count_Ways(x - 2);
+        // (n-1)의 계단을 오른후 하나씩 오르는방법+(n-2)의 계단을 오른후 두개씩 오르는 방법
+	    // ex) 4개의 계단을 오르는 방법은 Count_Ways(4)=Count_Ways(3)+Count_Ways(2) 이다.
+	    // Count_Ways(3)=Count_Ways(2)+Count_Ways(1)= 2+1 =3.
+	    // Count_Ways(3)=3 Count_Ways(2)=2 Count_Ways(4)=Count_Ways(3)+Count_Ways(2)=5 가 나온다.
+	   // 4개의 계단을 올라가는 방법은 총 5가지가 나온다.
+}
+
+double rad(double degree)
+{
+	return M_PI * degree / 180.0;
 }
