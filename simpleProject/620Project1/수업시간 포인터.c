@@ -49,11 +49,11 @@ int main()
 	printArray(myArray, 5);
 
 	char chr = 'a';
-	char chr1 = 'b';
 	char* pc = &chr;
 	pc = pc + 1; // 다음 메모리의 주소를 보기위해서 따로 지정을 해야함
 	printf("%p\n",&chr);
 	printf("%p\n",pc);
+	printf("%c %c\n", chr, pc);
 
 	return 0;
 }
