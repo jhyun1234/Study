@@ -1,2 +1,10 @@
-﻿  8장 함수.c
-  Project1.vcxproj -> C:\Users\16\Documents\GitHub\Study\simpleProject\620Project1\x64\Debug\Project1.exe
+﻿  수업시간 포인터.c
+C:\Users\11\Documents\GitHub\Study\simpleProject\620Project1\수업시간 포인터.c(33,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\11\Documents\GitHub\Study\simpleProject\620Project1\수업시간 포인터.c(33,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\11\Documents\GitHub\Study\simpleProject\620Project1\수업시간 포인터.c(34,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
+  C:\Users\11\Documents\GitHub\Study\simpleProject\620Project1\수업시간 포인터.c(34,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+  Project1.vcxproj -> C:\Users\11\Documents\GitHub\Study\simpleProject\620Project1\x64\Debug\Project1.exe

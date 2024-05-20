@@ -42,7 +42,7 @@
     <ClCompile Include="printf scanf 프로젝트.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="수업시간.c">
+    <ClCompile Include="수업시간 함수.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="랜덤난수생성후 버블정렬.c">
@@ -58,6 +58,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="8장 함수.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="수업시간 포인터.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

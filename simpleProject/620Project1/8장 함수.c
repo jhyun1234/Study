@@ -38,8 +38,9 @@ int Fact(int x);
 int Fibonacci(int arr[], int x);
 int Count_Ways(int x);
 double rad(double degree);
-int main()
+int main_Study()
 {
+	// 입력받는 함수를 만들고 지수승의 함수 구현
 
 	//int a = get_integer();
 	//int b = get_integer();
@@ -56,10 +57,14 @@ int main()
 	//int f = power(d,e);
 	//printf("%d의 %d승 : %d\n",a,b,f);
 
+	// 화씨를 섭씨로 변환
+
 	//double c, f;
 	//printf("화씨온도를 입력하세요 : \n");
 	//scanf("%lf", &f);
 	//printf("%lf의 섭씨온도는 %lf 입니다.\n", f, FtoC(f));
+
+	// 1과 100사이에서 소수찾기
 
 	//int h;
 	//printf("1과100사이에서 소수를 찾습니다.\n");
@@ -69,10 +74,14 @@ int main()
 	//		printf("%d ", i);
 	//}
 
+	// 함수를 이용해서 평균 구하기
+
 	//int score[SIZE] = { 100,100,100,100,100 };
 	//int avg;
 	//avg = average(score, SIZE);
 	//printf("평균 %d \n", avg);
+
+	// 베열에 있는 수들을 +1씩 해서 출력하는 함수 구현
 
 	//int list[SIZE] = { 1,2,3,4,5 };
 	//Source_arr(list, SIZE);
@@ -81,15 +90,21 @@ int main()
 	//Plus_arr(list, SIZE);
 	//Source_arr(list, SIZE);
 
+	// 1부터 100까지의 합을 구하는 함수 구현
+
 	//int sum = 0;
 	//sum = Sum_integer(100);
 	//printf("1부터 100까지의 합 %d\n", sum);
+
+	// 지역변수와 전역변수의 차이
 
 	//int integer = 100; // main 지역변수 선언
 	//
 	//printf("%d\n", integer); // main의 integer가 나옴 
 	//Integer_Plus(); // global integer의 값을 1증가
 	//Integer_print();// global integer의 값을 출력
+
+	// 랜덤값을 이용해 누가 더 많이 별이 찍혔는지 판별하는 함수 구현
 
 	//srand(time(NULL));
 	//int car1dis = 0;
@@ -110,6 +125,8 @@ int main()
 	//
 	//}
 
+	// 소수들의 합으로 정수 나타내기
+
 	//int j ,check= 0;
 	//printf("양의 정수를 입력하세요.");
 	//scanf("%d", &j);
@@ -129,6 +146,8 @@ int main()
 	//if (check == 0)
 	//	printf("%d는 소수들의 합으로 나타낼 수 없습니다.\n", j);
 
+    // 다트를 던져 점수내기 + 랜덤 함수를 이용해서 점수받기 구현
+
 	//float x=0, y=0;
 	//srand(time(NULL)); // 랜덤 함수를 이용해서 다트의 위치 넣기
 	//x = rand() % 5;
@@ -138,34 +157,48 @@ int main()
 	//printf("떨어진 좌표는 %f %f 입니다.\n", x, y);
 	//printf("획득한 점수는 %f점 입니다.\n", point);
 
+    // static 의 사용법
+
 	//Sub(); // static을 사용하면 함수호출이 종료되어도 없어지지 않는다 값이 계속해서 남아있음
 	//Sub();
 	//Sub();
 	//Sub();
 
+    // 펙토리얼 함수 구현하기
+	
     //int result = 0;
 	//
 	//printf("정수를 입력하세요.\n");
 	//scanf("%d", &result);  
 	//printf("%d!=%d", result, Fact(result)); // 정수를 입력받아서 펙토리얼을 구현할 수 있다.
 
+    // 피보나치 함수 구현하기 책에 있는것과는 다르게 배열을 이용해서 만듦
+
     //int x = 10;
 	//int arr[SIZE1];
 	//Fibonacci(arr, x);
        
+    // 계단을 오르는 방법을 구하는 함수구현
+
     //int stair = 10;
 	//printf("%d의 계단을 오르는 방법은 총 %d 가지입니다.\n", stair, Count_Ways(stair));
     
+    // sqrt를 이용해 함수의 제곱근 구하기
+
     //double n, result;
 	//printf("실수 입력");
 	//scanf("%lf", &n);
 	//result = sqrt(n);
 	//printf("%lf의 제곱근은 %lf 입니다.\n", n, result);
   
+    // system함수를 이용해서 클리어와 ipconfig 출력하기
+   
     //system("cls");
 	//Sleep(1000);
 	//system("cls");
 	//system("ipconfig /all");
+
+    // 10초를 맞추는 함수     
 
     //long start, end = 0;
 	//start = time(NULL);
@@ -175,6 +208,8 @@ int main()
 	//end = time(NULL);
 	//printf("경과된 시간은 %ld 초였습니다.\n", end - start);
 
+    // 랜덤 함수를 이용해 복권번호 뽑기     
+
     //int arr1[SIZE];
 	//srand(time(NULL));
 	//for (int i = 0; i < 6; i++)
@@ -182,7 +217,9 @@ int main()
 	//	arr1[i] = rand() % 45 + 1;
 	//	printf("%d ",arr1[i]);
 	//}
-
+  
+    // sin그래프 그리기
+     
     //int degree, x, y = 0;
 	//double radian, result;
 	//
