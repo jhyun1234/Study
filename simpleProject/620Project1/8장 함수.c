@@ -411,3 +411,12 @@ double rad(double degree)
 {
 	return M_PI * degree / 180.0;
 }
+
+void Print_Money()
+{
+	printf("=========================");
+
+	
+
+
+}
