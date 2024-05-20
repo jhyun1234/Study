@@ -38,7 +38,14 @@ int Fact(int x);
 int Fibonacci(int arr[], int x);
 int Count_Ways(int x);
 double rad(double degree);
-int main_Study()
+
+static int money;
+void Print_Menu();
+int Select_Menu(int n);
+void Input_Money();
+void Output_Money();
+void Current_Money();
+int main()
 {
 	// 입력받는 함수를 만들고 지수승의 함수 구현
 
@@ -237,7 +244,19 @@ int main_Study()
 	//}
 	//_getch();
 
-    
+    // ATM 프로그램
+
+     
+	
+    int select = 0;
+    while (1)
+    {
+		Print_Menu();
+		Select_Menu(select);
+
+
+	}
+
 
 
 	return 0;
@@ -449,11 +468,71 @@ double rad(double degree)
 	return M_PI * degree / 180.0;
 }
 
-void Print_Money()
+void Print_Menu()
 {
-	printf("=========================");
+	printf("============ 국민은행 ATM ============\n");
 
-	
+	printf("\n\n");
+	printf("==== 메뉴를 선택하세요.====\n");
 
+	printf("<1> 잔고확인\n");
+	printf("<2> 입금\n");
+	printf("<3> 인출\n");
+	printf("<4> 종료\n");
+	printf("\n\n");
 
 }
+
+int Select_Menu(int n)
+{
+	int select = 0;
+	scanf("%d", &select);
+
+	switch (select)
+	{
+	case 1:Current_Money();
+
+		break;
+	case 2:Input_Money();
+
+		break;
+	case 3:Output_Money();
+
+		break;
+	case 4:
+
+		exit(1);
+		break;
+	}
+
+}
+
+void Input_Money()
+{
+
+	printf("입금할 금액을 입력해주세요.\n");
+	scanf("%d", &money);
+	printf("%d원이 입금되었습니다.\n",money);
+	printf("\n");
+
+	
+	
+}
+
+void Output_Money()
+{
+
+	printf("출금할 금액을 입력해주세요.\n");
+	printf("\n");
+
+}
+
+void Current_Money()
+{
+	++money;
+	printf("현재 고객님께서 가지고 있으신 금액은 %d원 입니다.\n",&money);
+	printf("\n");
+}
+
+
+

@@ -10,7 +10,7 @@
 // b pointer를 이용해서 a 변수에 read와 write를 할 수 있다.
 // 메모리는 byte단위로 이루어진다.
 void printArray(int arr[], int size);
-int main()
+int main_ClassPointer()
 {
 	int a = 10;
 	int* b;
