@@ -252,8 +252,23 @@ int main()
     while (1)
     {
 		Print_Menu();
-		Select_Menu(select);
-		
+		select = Select_Menu(select);
+		switch (select)
+		{
+		case 1:Current_Money();
+
+			break;
+		case 2:Input_Money();
+
+			break;
+		case 3:Output_Money();
+
+			break;
+		case 4:
+
+			exit(1);
+			break;
+		}
 	}
 
 
@@ -486,33 +501,25 @@ int Select_Menu(int n)
 {
 	int select = 0;
 	scanf("%d", &select);
-
-	switch (select)
-	{
-	case 1:Current_Money();
-
-		break;
-	case 2:Input_Money();
-
-		break;
-	case 3:Output_Money();
-
-		break;
-	case 4:
-
-		exit(1);
-		break;
-	}
-
+     
+	return select;
 }
 
 void Input_Money()
 {
-
+	int add = 0;
 	printf("입금할 금액을 입력해주세요.\n");
-	scanf("%d", &money);
-	printf("%d원이 입금되었습니다.\n",money);
-	money++;
+	scanf("%d", &add);
+	if (add > 0)
+	{
+		money += add;
+	    printf("%d원이 입금되었습니다.\n",add);
+	}
+	else
+	{
+		printf("잘못된 금액입니다.\n");
+	}
+	
 	printf("\n");
 
 	
@@ -521,20 +528,29 @@ void Input_Money()
 
 void Output_Money()
 {
-
-	printf("출금할 금액을 입력해주세요.\n",money);
-	scanf("%d", &money);
-	printf("%d원이 출금되었습니다.",money);
-	money--;
+	int withdraw = 0;
+	printf("출금할 금액을 입력해주세요.\n");
+	scanf("%d", &withdraw);
+	if (withdraw > 0 && withdraw <= money)
+	{
+		money -= withdraw;
+ 
+	    printf("%d원이 출금되었습니다.", withdraw);
+	}
+	else
+	{
+		printf("잔고가 부족하거나 잘못된 금액입니다.\n");
+	}
+	
 	printf("\n");
 
 }
 
 void Current_Money()
 {
-	int *current= &money;
 	
-	printf("현재 고객님께서 가지고 있으신 금액은 %d원 입니다.\n",*current);
+	
+	printf("현재 고객님께서 가지고 있으신 금액은 %d원 입니다.\n",money);
 	printf("\n");
 }
 
