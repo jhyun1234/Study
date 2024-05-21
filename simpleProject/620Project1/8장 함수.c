@@ -45,7 +45,7 @@ int Select_Menu(int n);
 void Input_Money();
 void Output_Money();
 void Current_Money();
-int main()
+int main_Study()
 {
 	// 입력받는 함수를 만들고 지수승의 함수 구현
 
