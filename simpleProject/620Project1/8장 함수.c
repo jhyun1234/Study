@@ -45,7 +45,7 @@ int Select_Menu(int n);
 void Input_Money();
 void Output_Money();
 void Current_Money();
-int main_Study()
+int main()
 {
 	// 입력받는 함수를 만들고 지수승의 함수 구현
 
@@ -253,8 +253,7 @@ int main_Study()
     {
 		Print_Menu();
 		Select_Menu(select);
-
-
+		
 	}
 
 
@@ -513,6 +512,7 @@ void Input_Money()
 	printf("입금할 금액을 입력해주세요.\n");
 	scanf("%d", &money);
 	printf("%d원이 입금되었습니다.\n",money);
+	money++;
 	printf("\n");
 
 	
@@ -522,15 +522,19 @@ void Input_Money()
 void Output_Money()
 {
 
-	printf("출금할 금액을 입력해주세요.\n");
+	printf("출금할 금액을 입력해주세요.\n",money);
+	scanf("%d", &money);
+	printf("%d원이 출금되었습니다.",money);
+	money--;
 	printf("\n");
 
 }
 
 void Current_Money()
 {
-	++money;
-	printf("현재 고객님께서 가지고 있으신 금액은 %d원 입니다.\n",&money);
+	int *current= &money;
+	
+	printf("현재 고객님께서 가지고 있으신 금액은 %d원 입니다.\n",*current);
 	printf("\n");
 }
 

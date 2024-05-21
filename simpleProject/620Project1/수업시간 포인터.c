@@ -24,7 +24,7 @@
 void printArray(int arr[], int size);
 void print_p(int x, int* p);
 void print_arr(int a[]);
-int main()
+int main_ClassPointer()
 {
 	
 	int a = 10;
