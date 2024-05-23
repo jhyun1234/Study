@@ -4,7 +4,7 @@
 int main()
 {
 	int num = 100, num1 = 200;
-	int* ptr;
+	int* ptr=&num;
 	ptr = &num;
 	(*ptr) += 30;
 	ptr = &num1;
