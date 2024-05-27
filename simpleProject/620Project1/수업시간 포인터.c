@@ -31,7 +31,7 @@ void modify1(int value);
 int get_line_parameter(int x1, int y1, int x2, int y2, float* slope, float* yintercept);
 int* add3(int x, int y);
 void swap(int* px, int* py);
-int main()
+int main_ClassPointer()
 {
 	
 	int a = 10;
