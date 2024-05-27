@@ -35,7 +35,6 @@
     <ClCompile Include="파일 입출력 프로젝트.c" />
     <ClCompile Include="파일입출력.c" />
     <ClCompile Include="포인터 프로젝트 물고기 게임.c" />
-    <ClCompile Include="포인터.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

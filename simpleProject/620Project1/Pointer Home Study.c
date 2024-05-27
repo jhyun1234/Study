@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-int main()
+int main_Home()
 {
 	int num = 100, num1 = 200;
 	int* ptr=&num;

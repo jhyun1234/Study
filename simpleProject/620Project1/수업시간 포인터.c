@@ -21,10 +21,17 @@
 // v=(*p)++ -> p가 가리키는 값을 v에 대입한 후에 p가 가리키는 값을 증가한다.주소가 증가하는게 아님  -> 값 증가
 // *p=2 이면 v에는 2가 대입된다. 그 후 *p값은 3이 된다.
 // 포인터로 형변환을 할 수 있다. 
+// 포인터를 쓰레기 값으로 초기화 하지말고 NULL로 초기화를 반드시 해야한다. C++ nullptr
+// 배열은 이름은 포인터처럼 사용할 수 있지만 값은 변경할 수 없다. const
 void printArray(int arr[], int size);
 void print_p(int x, int* p);
 void print_arr(int a[]);
-int main_ClassPointer()
+void modify(int *value);
+void modify1(int value);
+int get_line_parameter(int x1, int y1, int x2, int y2, float* slope, float* yintercept);
+int* add3(int x, int y);
+void swap(int* px, int* py);
+int main()
 {
 	
 	int a = 10;
@@ -95,6 +102,7 @@ int main_ClassPointer()
 	unsigned long long data = 0x0A0B0C0D0E0F1011; // double 형식은 찍히지 않음 왜 와이? 검색
 	char* pc2;                                    // 정수형은 가능함
 	
+	
 	pc2 = (char*)&data;
 	for (int i = 0; i < 8; i++)
 	{
@@ -103,9 +111,72 @@ int main_ClassPointer()
 		// 모토로라는 빅 인디안
 		// 빅 인디안으로 통합되었다.
 	}
+	double data1 = 10;
+	double* pi = &data1;
+	int* pd = (int*)pi; 
 	
+	int data2 = 100;
+	int* pi1 = &data2;
+	double* pd2 = (double*)pi1; 
+
+	printf("%d\n", *pd);
+	printf("%d\n", *pd2);
+
+	int number1 = 1;
+	modify(&number1);
+	printf("number1 = %d\n", number1);
+	int number2 = 1;
+	modify1(number2);
+	printf("number2 = %d\n", number2);
+
+	float s, y;
+	if (get_line_parameter(3, 3, 6, 6, &s, &y) == -1) // slope 기울기 y절편 y축과 만나는 점 y=ax+b 에서 b값
+		                                              // b=(y-ax)
+		printf("에러\n");                             // yintercept y절편
+	else
+		printf("기울기는 %.2f \n y절편은 %.2f\n", s, y);
+
+	int* pi3 = add3(3, 4);
+	printf("%d\n", *pi3);
+
+	int n = 10, l = 20;
+	printf("swap()함수 호출 전 h=%d,l=%d\n", n, l);
+	swap(&n, &l);
+	printf("swap()함수 호출 후 h=%d,l=%d\n", n, l);
 
 
+	//int i;
+	//double* pd4;
+	//pd4 = &i;
+	//*pd4 = 36.5;
+	//printf("%f", *pd4);
+
+	int a3[] = { 10,2,30,4,50 };
+	int b3[] = { 1,20,3,40,5 };
+	int* pi4 = a3;
+	printf("배열의 이름: %p\n", a3);
+	printf("첫 번째 원소: %p\n", &a3[0]);
+	printf("pi4 = %p\n", pi4);
+	printf("%d\n", *a3);
+	printf("%d\n", *a3+1); //a3[0]의 값에 1을 더하고 출력하는 경우
+	printf("%d\n", *(a3+2)); // a3[2]의 값을 출력하는 경우
+	for (int i = 0; i < 5; i++)
+	{
+		printf("%d ", pi4[i]);  // *(a3+i)와 같다
+	}
+	printf("\n");
+
+	pi4 = b3; // a=c; c=a; Xs
+	for (int i = 0; i < 5; i++)
+	{
+		printf("%d ", pi4[i]);  // pi4[i]와 같다
+	}
+	printf("\n");
+
+
+	int b4 = 10;
+	int* ptr3 = &b4;
+	printf("%d\n", ptr3[0]); // 가능하지만 연속된 메모리가 아니기 떄문에 이렇게 사용하지 않는다.
 
 
 	return 0;
@@ -131,3 +202,42 @@ void print_arr(int a[])
 	}
 	printf("\n");
 }
+
+void modify(int *value)
+{
+	*value = 99; // 매개 변수를 변경한다.
+}
+void modify1(int value)
+{
+	value = 99; // 매개 변수를 통하여 원본을 변경한다.
+}
+// 기울기와 y절편을 계산한다.
+int get_line_parameter(int x1, int y1, int x2, int y2, float* slope, float* yintercept)
+{
+	if (x1 == x2)
+		return -1;
+	else
+	{
+		*slope = (float)(y2 - y1) / (float)(x2 - x1);
+		*yintercept = y1 - (*slope) * x1;
+		return 0;
+	}
+}
+int* add3(int x, int y)
+{
+	int result;
+	result = x + y;
+	return &result;  //지역변수는 함수 호출이종료되면 사라지므로 지역변수의 주소를 반환하면 안됩니다.
+	
+}
+
+void swap(int* px, int* py)
+{
+
+	int temp;
+	temp = *px;
+	*px = *py;
+	*py = temp;
+	
+}
+
