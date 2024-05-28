@@ -2,6 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <Windows.h>
+#include <time.h>
+
+#define MAXARR 100000000
+int arr1[MAXARR];
 // 포인터: 다른 변수의 주소를 저장한 변수
 // int a=10;
 // 선언 : int *b;
@@ -23,6 +27,9 @@
 // 포인터로 형변환을 할 수 있다. 
 // 포인터를 쓰레기 값으로 초기화 하지말고 NULL로 초기화를 반드시 해야한다. C++ nullptr
 // 배열은 이름은 포인터처럼 사용할 수 있지만 값은 변경할 수 없다. const
+// API를 써야하면 포인터를 쓰는게 좋다
+// 연결List 포인터는 떨어져있는 메모리를 읽을 때 유용하게 사용된다.
+// Search tree  
 void printArray(int arr[], int size);
 void print_p(int x, int* p);
 void print_arr(int a[]);
@@ -31,7 +38,7 @@ void modify1(int value);
 int get_line_parameter(int x1, int y1, int x2, int y2, float* slope, float* yintercept);
 int* add3(int x, int y);
 void swap(int* px, int* py);
-int main_ClassPointer()
+int main()
 {
 	
 	int a = 10;
@@ -178,6 +185,37 @@ int main_ClassPointer()
 	int* ptr3 = &b4;
 	printf("%d\n", ptr3[0]); // 가능하지만 연속된 메모리가 아니기 떄문에 이렇게 사용하지 않는다.
 
+
+	
+
+	for (int i = 0; i < MAXARR; i++)
+	{
+		arr1[i] = i + 1;
+	}
+	int sum1 = 0, sum2 = 0;
+	clock_t start1 = clock();
+	for (int i = 0; i < MAXARR; i++)
+	{
+		sum1 += arr1[i];
+	}
+	clock_t end1 = clock();
+
+	int* ptr4 = arr1;
+	clock_t start2 = clock();
+	for (int i = 0; i < MAXARR; i++,ptr4++)
+	{
+		sum2 += *ptr4; // == *ptr4++;
+	}
+	clock_t end2 = clock();
+	printf("1st running time=%d\n", (int)(end1 - start1));
+	printf("2nd running time=%d\n", (int)(end2 - start2));
+
+	// 이중 포인터
+	
+	// int i=100; 
+	// int*p=&i;
+	// int **q=&p;
+	// ' ' 아스키 코드 값 " " 문자열의 첫번쟤 주소 값
 
 	return 0;
 }
