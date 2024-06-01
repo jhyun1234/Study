@@ -60,7 +60,7 @@
     <ClCompile Include="수업시간 포인터.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Pointer Home Study.c">
+    <ClCompile Include="Study.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
