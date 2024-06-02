@@ -21,20 +21,21 @@
   <ItemGroup>
     <ClCompile Include="7장 배열.c" />
     <ClCompile Include="8장 함수.c" />
-    <ClCompile Include="Study.c" />
+    <ClCompile Include="도전 2.c" />
+    <ClCompile Include="포인터와 배열 문자열.c" />
     <ClCompile Include="고양이 수집.c" />
     <ClCompile Include="구조체.c" />
     <ClCompile Include="다차원배열.c" />
     <ClCompile Include="동물 뒤집기.c" />
     <ClCompile Include="printf scanf 프로젝트.c" />
     <ClCompile Include="랜덤난수생성후 버블정렬.c" />
-    <ClCompile Include="수업시간 포인터.c" />
     <ClCompile Include="수업시간 함수.c" />
     <ClCompile Include="스네이크 게임.c" />
     <ClCompile Include="스네이크게임만들기.c" />
     <ClCompile Include="파일 입출력 프로젝트.c" />
     <ClCompile Include="파일입출력.c" />
     <ClCompile Include="포인터 프로젝트 물고기 게임.c" />
+    <ClCompile Include="포인터와 함수.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

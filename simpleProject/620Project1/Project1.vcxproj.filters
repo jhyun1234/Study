@@ -57,10 +57,13 @@
     <ClCompile Include="8장 함수.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="수업시간 포인터.c">
+    <ClCompile Include="포인터와 배열 문자열.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Study.c">
+    <ClCompile Include="포인터와 함수.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="도전 2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
