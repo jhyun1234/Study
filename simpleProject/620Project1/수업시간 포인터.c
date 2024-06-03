@@ -38,7 +38,12 @@ void modify1(int value);
 int get_line_parameter(int x1, int y1, int x2, int y2, float* slope, float* yintercept);
 int* add3(int x, int y);
 void swap(int* px, int* py);
-int main_Class()
+void Set_Pointer(char** q);
+int add(int x, int y);
+int sub(int x, int y);
+int mul(int x, int y);
+int divide(int x, int y);
+int main()
 {
 	
 	int a = 10;
@@ -215,7 +220,50 @@ int main_Class()
 	// int i=100; 
 	// int*p=&i;
 	// int **q=&p;
+
+	// p는 i의 주소를 가리키고 있고 *p는 i주소안의 data를 가리킨다.
+	// *q는 p의 주소를 가리키고 있고 **q는 p가 가리키고 있는 주소의 data를 가리킨다.
+	//  
+
 	// ' ' 아스키 코드 값 " " 문자열의 첫번쟤 주소 값
+
+
+	char* p6 = NULL;
+
+	Set_Pointer(&p6);
+	printf("%s \n", p6);
+
+	// 함수 포인터
+	//int add(int , int); // 함수 원형 정의
+	//int (*pf)(int, int); // 함수 포인터 정의
+	
+	//pf = add;
+	// 이렇게 사용하면 포인터 하나로 다른 함수를 참조하여 더 간편하게 사용할 수 있다.
+
+	// int (*pf[2])(int, int)
+	// pf[0]=add(); , pf[1]=sub();
+
+	int choice, result, x3, y3=0;
+	int (*ptrf[4])(int, int) = { add,sub,mul,divide };
+    
+	while (1)
+	{
+
+		printf("번호를 선택하세요.\n");
+		scanf("%d", &choice);
+
+		if (choice < 0 || choice >4)
+		{
+			break;
+		}
+		printf("정수를 입력하세요.\n");
+		scanf("%d %d", &x3, &y3);
+
+		result = ptrf[choice](x3,y3);
+		printf("결과 값 : %d\n", result);
+
+	}
+
 
 	return 0;
 }
@@ -278,4 +326,32 @@ void swap(int* px, int* py)
 	*py = temp;
 	
 }
+
+void Set_Pointer(char** q)
+{
+	*q = "Welcome My World!";
+}
+
+int add(int x, int y)
+{
+	return x + y;
+}
+
+int sub(int x, int y)
+{
+	return x - y;
+}
+
+
+int mul(int x, int y)
+{
+	return x * y;
+}
+
+
+int divide(int x, int y)
+{
+	return x / y;
+}
+
 

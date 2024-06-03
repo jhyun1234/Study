@@ -8,7 +8,7 @@ void Binary(int num);
 void Even1(int arr[], int len);
 void Oddnumber1(int arr[], int len);
 void Binary1(int num);
-int main()
+int main_Home()
 {
 
 	// µµÀü 1
