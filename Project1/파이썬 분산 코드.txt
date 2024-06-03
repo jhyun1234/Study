@@ -1,0 +1,16 @@
+score=[50,60,70,80,90,100]
+sum=0
+for s in score:
+    sum+=s
+average=sum/len(score)
+print('총 점수 : ',sum)
+print('평균 : ',average)
+print('점수 출력 : ',score)
+
+msum=0
+for s in score:
+    msum+=s*s
+msum=msum/len(score)
+print(msum)
+variance=msum-(average*average)
+print(variance)
