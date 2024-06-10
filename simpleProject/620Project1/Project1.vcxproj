@@ -19,8 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="수업시간 동적메모리.c" />
-    <ClCompile Include="수업시간 문자열 구조체.c" />
+    <ClCompile Include="9장 포인터 과제제출.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

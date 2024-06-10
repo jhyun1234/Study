@@ -64,7 +64,7 @@ Student f(Student a)
 // 다른 수로 초기화해도 된다.
 // 문자를 숫자로 바꿀 수 있다. -> 가독성이 높음
 
-int main()
+int main_Struct()
 {
 	//int c = _getch();  // 입력받은걸 바로 출력함
 	//printf("%c", c);
@@ -143,15 +143,15 @@ int main()
 
 	int* ptr = (int*)malloc(5 * sizeof(int));
 	
-	ptr[0] = 1;
-	
+	*ptr = 1;
+	ptr++;
 	printf("%d ,%p \n",ptr[0],ptr);
-	ptr = realloc(ptr, sizeof(int) * 7); // 7 = 2개가 더 필요할 경우,total 메모리사이즈
+	*ptr = realloc(ptr, sizeof(int) * 7); // 7 = 2개가 더 필요할 경우,total 메모리사이즈
 	// realloc이 생성되면 새로운 메모리가 잡힌다 그전에 ptr의 메모리안에 있는 값을 복사해서 사용된다.
 	// 메모리 주소가 달라진다.하지만 값을 복사하니 보장이 된다.
 	// 결과적으로 느림 
 	
-	printf("%d ,%p\n", ptr[0], ptr);
+	printf("%d ,%p\n", *ptr, ptr);
 
 	//Student* ptr = (Student*)calloc(5,10 * sizeof(Student));
 	//
