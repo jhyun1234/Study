@@ -15,7 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="9장 포인터 과제제출.c">
+    <ClCompile Include="Home 함수,함수와 포인터.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="포인터와 배열 문자열.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="더블 포인터.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -18,7 +18,7 @@ double get_total_avg(int m[][COLS]);
 void memzero(void* ptr, size_t len);
 double get_array_avg(int values[], int n);
 void print_array(int values[], int n);
-int main()
+int main_pointer()
 {
 	int a = 10;
 	char b = 69;

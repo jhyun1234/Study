@@ -4,7 +4,7 @@
 #include <time.h>
 
 #define SIZE 6
-int main_PointerArray() {
+int main_pointer() {
     
     // 12-1 문제 1
     /*  
@@ -103,7 +103,7 @@ int main_PointerArray() {
     printf("2번째 인덱스의 증가 값 %d\n", *(ptr+2)+2);
     printf("3번째 인덱스의 증가 값 %d\n", *(ptr+3)+2);
     printf("4번째 인덱스의 증가 값 %d\n", *(ptr+4)+2);
-    */
+    /*
     
     // 13-1 문제 2
     /*
@@ -136,36 +136,34 @@ int main_PointerArray() {
 
     */
 
+    // 13-1 문제 2
+
+    /*
+    int arr[5] = { 1,2,3,4,5 };
+    int* ptr = &arr;
+
+    for (int i = 0; i < 5; i++)
+    {
+        printf("%d번째 인덱스 값 2 증가후 %d\n",i,*(ptr)+2);
+        *(ptr++);
+    }
+    */
+    
     // 13-1 문제 3
     
     /*
     int arr[5] = { 1,2,3,4,5 };
     int* ptr = arr;
 
-    printf("감소 전 0번째 인덱스의 값 %d \n", (*ptr));
-    (*ptr -= 1);
-    printf("감소 후 0번째 인덱스의 값 %d \n", (*ptr));
-    ptr++;
-    printf("\n");
-    printf("감소 전 1번째 인덱스의 값 %d \n", (*ptr));
-    (*ptr -= 1);
-    printf("감소 후 1번째 인덱스의 값 %d \n", (*ptr));
-    ptr++;
-    printf("\n");
-    printf("감소 전 2번째 인덱스의 값 %d \n", (*ptr));
-    (*ptr -= 1);
-    printf("감소 후 2번째 인덱스의 값 %d \n", (*ptr));
-    ptr++;
-    printf("\n");
-    printf("감소 전 3번째 인덱스의 값 %d \n", (*ptr));
-    (*ptr -= 1);
-    printf("감소 후 3번째 인덱스의 값 %d \n", (*ptr));
-    ptr++;
-    printf("\n");
-    printf("감소 전 4번째 인덱스의 값 %d \n", (*ptr));
-    (*ptr -= 1);
-    printf("감소 후 4번째 인덱스의 값 %d \n", (*ptr));
-    ptr++;
+    for (int i = 0; i < 5; i++)
+    {
+        printf("감소 전 %d번째 인덱스의 값 %d \n",i, (*ptr));
+        (*ptr -= 1);
+        printf("감소 후 %d번째 인덱스의 값 %d \n",i, (*ptr));
+        printf("\n");
+        ptr++;
+    }
+    
     printf("\n");
     int sum = 0;
     for (int i = 0; i < 5; i++)
@@ -194,7 +192,7 @@ int main_PointerArray() {
          ptr1 -= 1;
         
     }
-    for (i = 0; i < SIZE; i++)
+    for (i = 0; i < 6; i++)
     {
         printf("%d ", arr[i]);
     }
