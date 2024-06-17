@@ -3,7 +3,7 @@
 void SwapIntPtr(int* p1, int* p2);
 int MaxAndMin(int* arr, int** p1, int** p2, int size);
 
-int main()
+int main_pointer()
 {
 	/*
 	int num = 3;

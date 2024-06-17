@@ -19,9 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Home 함수,함수와 포인터.c" />
-    <ClCompile Include="더블 포인터.c" />
-    <ClCompile Include="포인터와 배열 문자열.c" />
+    <ClCompile Include="기말고사 B제출.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
